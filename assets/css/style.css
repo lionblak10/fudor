@@ -19,3 +19,19 @@
     width: 450px;
 
 }
+ .texto-banner{
+    font-size: 60px;
+    font-weight: bolder;
+ }
+ .caixa-texto{
+    width: 500px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+
+ }
+ .caixa-estrutura{
+    display: flex;
+    flex-direction: row;
+
+ }
