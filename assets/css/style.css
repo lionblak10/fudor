@@ -15,8 +15,8 @@
 
 #banner{
     
-    height: 450px;
-    width: 450px;
+    height: 500px;
+    width: 500px;
 
 }
  .texto-banner{
@@ -25,7 +25,6 @@
  }
  .caixa-texto{
     width: 500px;
-    background-color: beige;
     display: flex;
     justify-content: center;
 
@@ -35,3 +34,37 @@
     flex-direction: row;
 
  }
+
+ #Food{
+    color: red;
+ }
+
+ #btn-get{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(206, 46, 46);
+    color: rgb(255, 255, 255);
+    border-radius: 20px; /* torna as bordas redondas*/
+    border: none; 
+}
+.caixatitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: blue;
+    width: 400px;
+    
+
+}
+.titulo-secundarios{
+    color: rgb(206, 46, 46);
+    font-weight: 500;
+
+}
+.titulos-primarios{
+    font-weight: bolder;
+    font-size: 40px;
+
+}
